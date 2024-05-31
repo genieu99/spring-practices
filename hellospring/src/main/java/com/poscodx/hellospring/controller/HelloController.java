@@ -1,6 +1,7 @@
 package com.poscodx.hellospring.controller;
 
 import java.io.IOException;
+import java.io.Writer;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -58,8 +59,8 @@ public class HelloController {
 	
 	public void hello7(
 			HttpServletRequest request,
-			HttpServletResponse response
-			) throws IOException {
+			HttpServletResponse response,
+			Writer out) throws IOException {
 		response.getWriter().print("<h1>Hello World</h1>");
 	}
 }
