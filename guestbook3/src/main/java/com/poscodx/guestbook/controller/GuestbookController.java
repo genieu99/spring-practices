@@ -22,7 +22,7 @@ public class GuestbookController {
 	public String index(Model model) {
 		List<GuestbookVo> list = guestbookRepository.findAll();
 		model.addAttribute("list", list);
-		return "list";
+		return "index";
 	}
 	
 	@RequestMapping("/add")
