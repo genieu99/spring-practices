@@ -14,7 +14,7 @@ public class GuestbookLogRepository {
 	}
 	
 	public int insert() {
-		return jdbcContext.update("insert into guestbook_log values(current_date(), 1);");
+		return jdbcContext.update("insert into guestbook_log values(current_date(), 1)");
 	}
 	
 	public int update() {
