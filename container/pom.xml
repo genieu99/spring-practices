@@ -18,14 +18,15 @@
   	</properties>
 	
 	<dependencies>
-		<!-- spring context -->
+		<!-- spring test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
+			<artifactId>spring-test</artifactId>
 			<version>${org.springframework-version}</version>
+			<scope>test</scope>
 		</dependency>
 		
-		<!-- jUnit-->
+		<!-- junit5(jupiter) -->
 		<dependency>
 		    <groupId>org.junit.jupiter</groupId>
 		    <artifactId>junit-jupiter-api</artifactId>
