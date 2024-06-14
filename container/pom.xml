@@ -18,6 +18,13 @@
   	</properties>
 	
 	<dependencies>
+		<!-- spring context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		
 		<!-- spring test -->
 		<dependency>
 			<groupId>org.springframework</groupId>
