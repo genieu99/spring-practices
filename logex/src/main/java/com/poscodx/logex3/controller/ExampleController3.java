@@ -14,7 +14,7 @@ public class ExampleController3 {
 	 */
 	private static final Log LOG = LogFactory.getLog( ExampleController3.class );
 	
-	@RequestMapping( "/ex3" )
+	@RequestMapping("/ex3")
 	@ResponseBody
 	public String ex2() {
 		
@@ -34,10 +34,10 @@ public class ExampleController3 {
 		 *     
 		 *  5. 이 로거의 로그 레벨이 WARN 인 것도 로그 파일에서 확인해 보세요.   
 		 */
-		LOG.debug( "#ex3 - debug log" );
-		LOG.info( "#ex3 - info log" );
-		LOG.warn( "#ex3 - warn log" );
-		LOG.error( "#ex3 - error log" );
+		LOG.debug("#ex3 - debug log");
+		LOG.info("#ex3 - info log");
+		LOG.warn("#ex3 - warn log");
+		LOG.error("#ex3 - error log");
 		
 		return "Logback Logging Example3";
 	}

@@ -15,7 +15,7 @@ public class ExampleController2 {
 	private static final Log LOG = LogFactory.getLog( ExampleController2.class );
 	
 	
-	@RequestMapping( "/ex2" )
+	@RequestMapping("/ex2")
 	@ResponseBody
 	public String ex2() {
 		
@@ -36,10 +36,10 @@ public class ExampleController2 {
 		 *  5. 이 로거의 로그 레벨이 INFO 인 것도 로그 파일에서 확인해 보세요.   
 		 */
 
-		LOG.debug( "#ex2 - debug log" );
-		LOG.info( "#ex2 - info log" );
-		LOG.warn( "#ex2 - warn log" );
-		LOG.error( "#ex2 - error log" );
+		LOG.debug("#ex2 - debug log");
+		LOG.info("#ex2 - info log");
+		LOG.warn("#ex2 - warn log");
+		LOG.error("#ex2 - error log");
 		
 		return "Logback Logging Example2";
 	}
